@@ -1,5 +1,4 @@
 ![](quotes.gif)
 
-```php
-php -S localhost:8888
-```
+Run Server: `php -S localhost:8888`
+using API: `http://quotes.stormconsultancy.co.uk/quotes.json`
