@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,800);
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: darkslategray;
+}
+blockquote {
+  border-radius: 15px;
+  padding: 15px;
+  width: 50%;
+  background-color: darkolivegreen;
+  /*position: absolute;*/
+}
+q {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  line-height: 1.5rem;
+  color: black;
+}
+q::before {
+  font-family: "Times", sans-serif;
+  content: "\201c";
+}
+q::after {
+  font-family: "Times", sans-serif;
+  content: "\201d";
+}
+q::before,
+q::after {
+  font-size: 2rem;
+}
+/*cite{
+	position: relative;
+	left:70%;
+}*/
+cite {
+  color: grey;
+}
+button {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  background-color: darkolivegreen;
+  padding: 7px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: wheat;
+  border: none;
+  outline: none;
+}
+button:hover {
+  color: cyan;
+}
+::selection {
+  color: red;
+  background: yellow;
+}
